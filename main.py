@@ -3,5 +3,5 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get('/')
-def root(a: str):
+def root(a: int):
     return {'message': a}
